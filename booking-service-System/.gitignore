@@ -97,3 +97,4 @@ docker-compose.override.yml
 ######################################
 coverage/
 *.exec
+src/main/resources/application.properties
