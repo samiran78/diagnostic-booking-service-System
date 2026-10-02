@@ -1,0 +1,99 @@
+######################################
+# Build output
+######################################
+target/
+build/
+out/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.mvn/wrapper/maven-wrapper.jar
+HELP.md
+*.class
+*.jar
+*.war
+*.ear
+!.mvn/wrapper/maven-wrapper.jar
+
+######################################
+# Secrets and environment (never commit)
+######################################
+.env
+.env.*
+*.env
+application-local.yml
+application-local.properties
+application-secret*.yml
+*.pem
+*.key
+*.p12
+*.jks
+
+######################################
+# Logs and temp files
+######################################
+*.log
+logs/
+log/
+*.tmp
+*.bak
+*.swp
+*~
+hs_err_pid*
+
+######################################
+# IntelliJ IDEA
+######################################
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+
+######################################
+# Eclipse / STS
+######################################
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+
+######################################
+# NetBeans
+######################################
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+######################################
+# VS Code
+######################################
+.vscode/
+
+######################################
+# OS files
+######################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+######################################
+# Docker local data
+######################################
+pgdata/
+postgres-data/
+docker-compose.override.yml
+
+######################################
+# Test and coverage output
+######################################
+coverage/
+*.exec
